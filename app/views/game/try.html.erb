@@ -1,0 +1,7 @@
+<form action="game" method="get">
+  <input type="number" name="guess"/>
+  <input type="submit" value="Submit"/>
+</form>
+<p><%= @result %></p>
+<p>Tries: <%= cookies[:counter] %></p>
+<p>(<%= cookies[:secret]%>)</p>
